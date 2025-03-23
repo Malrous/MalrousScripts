@@ -83,7 +83,7 @@ end
 
 -- |Functions| --
 
-function EncryptString(str)
+function MoreLuau:EncryptString(str)
     return encrypt(str)
 end
 
