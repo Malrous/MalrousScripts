@@ -86,7 +86,7 @@ end
 
 -- |Functions| --
 
-funcs.EncryptString(str)
+funcs.EncryptString = function(str)
     return encrypt(str)
 end
 
