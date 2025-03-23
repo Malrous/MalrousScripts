@@ -1,5 +1,3 @@
--- If you are not associated with any kind of collaboration oof the creator, please exit as it is forbidden to do so.
-
 --[[
 MoreLuau by Malrous
 
@@ -85,8 +83,11 @@ end
 
 -- |Functions| --
 
--- FindFirstDescendant
-local MoreLuau = {
+function EncryptString(str)
+    return encrypt(str)
+end
+
+--[[local MoreLuau = {
     FindFirstDescendant = function(instance, obj)
         return instance:FindFirstChild(obj,true)
     end
@@ -152,5 +153,7 @@ local MoreLuau = {
         gui.Parent = protected_service
     end
 }
+
+]]--
 
 --Version [REDACTED]
