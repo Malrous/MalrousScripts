@@ -15,6 +15,9 @@ local Players = game:GetService("Players")
 local Player = game:GetService("Players").LocalPlayer
 local CoreGui = game:GetService("CoreGui")
 
+--core
+local funcs = {} -- main table for the functions
+
 -- script functions
 local function shuffle(str)
 	local t = {}
@@ -83,7 +86,7 @@ end
 
 -- |Functions| --
 
-function MoreLuau:EncryptString(str)
+funcs.EncryptString(str)
     return encrypt(str)
 end
 
