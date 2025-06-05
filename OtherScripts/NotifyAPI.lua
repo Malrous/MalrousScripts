@@ -132,7 +132,7 @@ local function CreateDescription(Text, Parent, YPosition)
 	Description.TextColor3 = NOTIFICATION_COLORS.Text
 	Description.TextSize = 14
 	Description.TextScaled = true
-	Description.Font = Enum.Font.Gotham
+	Description.Font = Enum.Font.RobotoMono
 	Description.TextXAlignment = Enum.TextXAlignment.Left
 	Description.TextYAlignment = Enum.TextYAlignment.Top
 	Description.TextWrapped = true
