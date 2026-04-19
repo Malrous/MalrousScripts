@@ -116,7 +116,7 @@ local function CreateTitle(Text, Parent)
 	Title.TextColor3 = NOTIFICATION_COLORS.Title
 	Title.TextSize = 16
 	Title.TextScaled = true
-	Title.Font = Enum.Font.RobotoMono
+	Title.Font = Enum.Font.Code
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 	Title.TextYAlignment = Enum.TextYAlignment.Center
 	Title.Parent = Parent
@@ -132,7 +132,7 @@ local function CreateDescription(Text, Parent, YPosition)
 	Description.TextColor3 = NOTIFICATION_COLORS.Text
 	Description.TextSize = 14
 	Description.TextScaled = true
-	Description.Font = Enum.Font.RobotoMono
+	Description.Font = Enum.Font.Code
 	Description.TextXAlignment = Enum.TextXAlignment.Left
 	Description.TextYAlignment = Enum.TextYAlignment.Top
 	Description.TextWrapped = true
@@ -184,7 +184,7 @@ local function CreateSquircleButton(Text, Width, Height, Parent, Position)
 	Button.TextScaled = true
 	Button.BackgroundColor3 = BUTTON_COLORS.Default
 	Button.TextColor3 = NOTIFICATION_COLORS.Text
-	Button.Font = Enum.Font.RobotoMono
+	Button.Font = Enum.Font.Code
 	Button.TextSize = 14
 	Button.Parent = Parent
 
@@ -351,7 +351,7 @@ local function CreateInputField(Parent, YPosition)
 	InputField.BackgroundColor3 = BUTTON_COLORS.Default
 	InputField.TextColor3 = NOTIFICATION_COLORS.Text
 	InputField.TextSize = 14
-	InputField.Font = Enum.Font.RobotoMono
+	InputField.Font = Enum.Font.Code
 	InputField.TextXAlignment = Enum.TextXAlignment.Left
 	InputField.TextYAlignment = Enum.TextYAlignment.Center
 	InputField.PlaceholderText = "Enter your input here..."
