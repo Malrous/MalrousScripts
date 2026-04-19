@@ -69,13 +69,13 @@ local function CreateNotificationFrame(Y)
 
 	local Stroke = Instance.new("UIStroke")
 	Stroke.Color = NOTIFICATION_COLORS.Stroke
-	Stroke.Thickness = 1.5
+	Stroke.Thickness = 1.2
 	Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-	Stroke.Transparency = 0
+	Stroke.Transparency = 0.9
 	Stroke.Parent = Frame
 
 	local UICorner = Instance.new("UICorner")
-	UICorner.CornerRadius = UDim.new(0, 8)
+	UICorner.CornerRadius = UDim.new(0, 4)
 	UICorner.Parent = Frame
 
 	local AccentBar = Instance.new("Frame")
@@ -391,7 +391,7 @@ _G.EnhancedNotifs = {
 		local finalPos = UDim2.new(1, -320, 1, -CalculateBounds(CachedObjects) - finalHeight)
 
 		NewNotif.Position = finalPos
-		NewNotif.Size = UDim2.new(0, 300, 0, 0)
+		NewNotif.Size = UDim2.new(0, 150, 0, 0)
 		NewNotif.BackgroundTransparency = 1
 		NewNotif.Parent = Container
 
