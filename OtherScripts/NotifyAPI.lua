@@ -391,7 +391,7 @@ _G.EnhancedNotifs = {
 		local finalPos = UDim2.new(1, -320, 1, -CalculateBounds(CachedObjects) - finalHeight)
 
 		NewNotif.Position = finalPos
-		NewNotif.Size = UDim2.new(0, 150, 0, 0)
+		NewNotif.Size = UDim2.new(0, 300, 0, 0)
 		NewNotif.BackgroundTransparency = 1
 		NewNotif.Parent = Container
 
